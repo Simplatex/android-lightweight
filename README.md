@@ -16,16 +16,18 @@ The how-to article for creating this from scratch is published here: [How to bui
 
 Android Lightweight is a public project:
 
-- Dockerfile is stored in Bitbucket: [Bitbucket repository](https://bitbucket.org/simplatex/android-lightweight)
+- Dockerfile is stored in Github: [Github repository](https://github.com/Simplatex/android-lightweight)
 - Dockerfile is built and image is stored in Docker Hub: [Docker Hub repository](https://hub.docker.com/r/simplatex/android-lightweight)
+
+
+Docker Hub published [a blog post](https://www.docker.com/blog/changes-to-docker-hub-autobuilds/) to discontinue automated build for free users. So, [our repository in Bitbucket](https://bitbucket.org/simplatex/android-lightweight) is deprecated. Check the Github repository as above.
 
 ## Builds
 
-Whenever the new Dockerfile is pushed into Bitbucket repository, Docker Hub will trigger an automated build and release a new image if the build is successful.
-Check all the builds: [Docker Hub Builds](https://hub.docker.com/r/simplatex/android-lightweight/builds)
+Whenever the new Dockerfile is pushed into Github repository, Github workflow will build & push the image to Docker Hub.
+Check [all workflow runs](https://github.com/Simplatex/android-lightweight/actions/workflows/main.yml) in Github.
 
 ## Contribution & Features/Improvements Request
 
-- Please [submit a ticket in our Jira Service Desk project](https://simplatex.atlassian.net/servicedesk/customer/portal/5).
-- Or you can [view all open issues here](https://simplatex.atlassian.net/jira/servicedesk/projects/ALD/issues/).
-
+- Please [submit a new issue](https://github.com/Simplatex/android-lightweight/issues/new).
+- Or you can [view all open issues here](https://github.com/Simplatex/android-lightweight/issues).
