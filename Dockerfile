@@ -1,6 +1,6 @@
 # Docker Hub: https://hub.docker.com/r/simplatex/android-lightweight
 
-FROM ubuntu
+FROM ubuntu:rolling
 
 LABEL maintainer "simplatex.com.au@gmail.com"
 
