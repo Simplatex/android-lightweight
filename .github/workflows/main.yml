@@ -50,10 +50,6 @@ jobs:
           cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/android-lightweight:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/android-lightweight:buildcache,mode=max
 
-      - name: Inspect
-        run: |
-          docker image inspect ${{ secrets.DOCKER_HUB_USERNAME }}/android-lightweight:latest
-
       - name: Update repo description
         uses: peter-evans/dockerhub-description@v2
         with:
