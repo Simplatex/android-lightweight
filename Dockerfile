@@ -16,7 +16,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG GRADLE_VERSION=7.2
 ARG ANDROID_API_LEVEL=32
 # https://developer.android.com/studio/releases/build-tools
-ARG ANDROID_BUILD_TOOLS_LEVEL=33.0.0-rc2
+ARG ANDROID_BUILD_TOOLS_LEVEL=33.0.0
 # https://developer.android.com/ndk/downloads
 ARG ANDROID_NDK_VERSION=24.0.8215888
 # https://developer.android.com/studio/
