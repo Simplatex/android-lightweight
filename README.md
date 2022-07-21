@@ -5,7 +5,7 @@ Android Lightweight is a very lightweight docker image for Android, which contai
 - OpenJDK 11
 - Gradle 7.2
 - Android API 32
-- Android Build Tools 33.0.0-rc2
+- Android Build Tools 33.0.0
 - Android NDK (Side by side) 24.0.8215888
 - Command line tools linux-8092744_latest
 - Accepted all licenses
