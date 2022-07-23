@@ -18,7 +18,7 @@ ARG ANDROID_API_LEVEL=32
 # https://developer.android.com/studio/releases/build-tools
 ARG ANDROID_BUILD_TOOLS_LEVEL=33.0.0
 # https://developer.android.com/ndk/downloads
-ARG ANDROID_NDK_VERSION=24.0.8215888
+ARG ANDROID_NDK_VERSION=25.0.8775105
 # https://developer.android.com/studio/
 ARG ANNDROID_CMD_LINE_TOOLS=linux-8092744_latest
 
