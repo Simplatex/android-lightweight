@@ -10,7 +10,9 @@ Android Lightweight is a very lightweight docker image for Android, which contai
 - Command line tools linux-8512546_latest
 - Accepted all licenses
 
-The how-to article for creating this from scratch is published here: [How to build a Lightweight Docker Container for Android Build](https://simplatex.atlassian.net/wiki/spaces/KB/pages/88539153/How+to+build+a+Lightweight+Docker+Container+for+Android+Build)
+The how-to article for creating this from scratch is published here: [How to build a Lightweight Docker Container for Android Build](https://github.com/Simplatex/android-lightweight/wiki/How-to-build-a-Lightweight-Docker-Container-for-Android-Build)
+
+Check out [the related documentation](https://github.com/Simplatex/android-lightweight/wiki) in our Wiki.
 
 ## Repositories
 
