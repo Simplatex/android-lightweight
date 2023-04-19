@@ -13,14 +13,14 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # Version of tools:
 # In Code
-ARG GRADLE_VERSION=7.3.3
+ARG GRADLE_VERSION=8.0
 ARG ANDROID_API_LEVEL=33
 # https://developer.android.com/studio/releases/build-tools
-ARG ANDROID_BUILD_TOOLS_LEVEL=33.0.0
+ARG ANDROID_BUILD_TOOLS_LEVEL=33.0.2
 # https://developer.android.com/ndk/downloads
-ARG ANDROID_NDK_VERSION=25.0.8775105
+ARG ANDROID_NDK_VERSION=25.2.9519653
 # https://developer.android.com/studio/
-ARG ANNDROID_CMD_LINE_TOOLS=linux-8512546_latest
+ARG ANNDROID_CMD_LINE_TOOLS=linux-9477386_latest
 
 # Dependencies and needed tools
 RUN apt update -qq && apt install -qq -y openjdk-11-jdk vim git unzip libglu1 libpulse-dev libasound2 libc6  libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxi6  libxtst6 libnss3 wget
