@@ -1,6 +1,6 @@
 # Docker Hub: https://hub.docker.com/r/simplatex/android-lightweight
 
-FROM ubuntu:22.10
+FROM ubuntu:23.10
 
 LABEL maintainer "simplatex.com.au@gmail.com"
 
@@ -23,7 +23,8 @@ ARG ANDROID_NDK_VERSION=26.1.10909125
 ARG ANNDROID_CMD_LINE_TOOLS=linux-11076708_latest
 
 # Dependencies and needed tools
-RUN apt update -qq && apt install -qq -y openjdk-17-jdk vim git unzip libglu1 libpulse-dev libasound2 libc6  libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxi6  libxtst6 libnss3 wget
+RUN apt update -qq
+RUN apt install -qq -y openjdk-17-jdk vim git unzip libglu1 libpulse-dev libasound2 libc6  libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxi6  libxtst6 libnss3 wget
 
 # Download gradle, install gradle and gradlew
 RUN wget -q https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip -P /tmp
