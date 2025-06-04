@@ -14,13 +14,13 @@ ARG DEBIAN_FRONTEND=noninteractive
 # Version of tools:
 # In Code
 ARG GRADLE_VERSION=8.11.1
-ARG ANDROID_API_LEVEL=35
+ARG ANDROID_API_LEVEL=36
 # https://developer.android.com/studio/releases/build-tools
-ARG ANDROID_BUILD_TOOLS_LEVEL=36.0.0-rc1
+ARG ANDROID_BUILD_TOOLS_LEVEL=36.0.0
 # https://developer.android.com/ndk/downloads
-ARG ANDROID_NDK_VERSION=28.0.12674087
+ARG ANDROID_NDK_VERSION=29.0.13113456
 # https://developer.android.com/studio/
-ARG ANDROID_CMD_LINE_TOOLS=linux-11076708_latest
+ARG ANDROID_CMD_LINE_TOOLS=linux-13114758_latest
 # https://developer.android.com/build/jdks
 ARG OPEN_JDK=openjdk-17-jdk
 
