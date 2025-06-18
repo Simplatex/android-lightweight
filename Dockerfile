@@ -1,6 +1,6 @@
 # Docker Hub: https://hub.docker.com/r/simplatex/android-lightweight
 
-FROM ubuntu:24.04
+FROM ubuntu:25.04
 
 LABEL maintainer "simplatex.com.au@gmail.com"
 
