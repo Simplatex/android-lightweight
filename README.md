@@ -30,6 +30,10 @@ Docker Hub published [a blog post](https://www.docker.com/blog/changes-to-docker
 Whenever the new Dockerfile is pushed into Github repository, Github workflow will build & push the image to Docker Hub.
 Check [all workflow runs](https://github.com/Simplatex/android-lightweight/actions/workflows/main.yml) in Github.
 
+## Usage Statistics
+
+You can find the statistics for the usage of this docker image here: [Usage Statistics](https://docs.google.com/spreadsheets/d/1iqGfqwX6P5xY00L4RsNLJZ4EGm2_h8d_GjdkN754cMU/edit?usp=sharing)
+
 ## Contribution & Features/Improvements Request
 
 - Please [submit a new issue](https://github.com/Simplatex/android-lightweight/issues/new).
