@@ -2,13 +2,13 @@
 
 Android Lightweight is a very lightweight docker image for Android, which contains only the latest version of Android Libraries:
 
-- Ubuntu 25.04
+- Ubuntu 25.10
 - OpenJDK 17
-- Gradle 8.11.1
+- Gradle 9.1.0
 - Android API 36
-- Android Build Tools 36.0.0
-- Android NDK (Side by side) 29.0.13113456
-- Command line tools linux-13114758_latest.zip
+- Android Build Tools 36.1.0
+- Android NDK (Side by side) 29.0.14206865
+- Command line tools linux-14742923_latest.zip
 - Accepted all licenses
 
 The how-to article for creating this from scratch is published here: [How to build a Lightweight Docker Container for Android Build](https://github.com/Simplatex/android-lightweight/wiki/How-to-build-a-Lightweight-Docker-Container-for-Android-Build)
