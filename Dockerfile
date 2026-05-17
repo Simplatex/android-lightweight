@@ -14,7 +14,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # Version of tools:
 # In Code
 ARG GRADLE_VERSION=9.2.1
-ARG ANDROID_API_LEVEL=37
+ARG ANDROID_API_LEVEL=37.0
 # https://developer.android.com/studio/releases/build-tools
 ARG ANDROID_BUILD_TOOLS_LEVEL=37.0.0
 # https://developer.android.com/ndk/downloads
@@ -42,7 +42,7 @@ RUN mkdir /opt/android/cmdline-tools
 RUN wget -q https://dl.google.com/android/repository/commandlinetools-${ANDROID_CMD_LINE_TOOLS}.zip -P /tmp
 RUN unzip -q -d /opt/android/cmdline-tools /tmp/commandlinetools-${ANDROID_CMD_LINE_TOOLS}.zip
 
-#
+# List all to see what we have
 RUN /opt/android/cmdline-tools/cmdline-tools/bin/sdkmanager --list | grep -E "platforms;android-|build-tools"
 
 # install packages and accept all licenses
