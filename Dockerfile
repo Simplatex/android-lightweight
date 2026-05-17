@@ -42,6 +42,9 @@ RUN mkdir /opt/android/cmdline-tools
 RUN wget -q https://dl.google.com/android/repository/commandlinetools-${ANDROID_CMD_LINE_TOOLS}.zip -P /tmp
 RUN unzip -q -d /opt/android/cmdline-tools /tmp/commandlinetools-${ANDROID_CMD_LINE_TOOLS}.zip
 
+#
+RUN /opt/android/cmdline-tools/cmdline-tools/bin/sdkmanager --list | grep -E "platforms;android-|build-tools"
+
 # install packages and accept all licenses
 # cmdline-tools/cmdline-tools - the second "cmdline-tools" is the folder in the zip file
 RUN yes Y | /opt/android/cmdline-tools/cmdline-tools/bin/sdkmanager --install "build-tools;${ANDROID_BUILD_TOOLS_LEVEL}" "platforms;android-${ANDROID_API_LEVEL}" "platform-tools" "ndk;${ANDROID_NDK_VERSION}" \
