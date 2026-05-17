@@ -1,6 +1,6 @@
 # Docker Hub: https://hub.docker.com/r/simplatex/android-lightweight
 
-FROM ubuntu:25.10
+FROM ubuntu:26.04
 
 LABEL maintainer "simplatex.com.au@gmail.com"
 
@@ -13,10 +13,10 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # Version of tools:
 # In Code
-ARG GRADLE_VERSION=9.1.0
-ARG ANDROID_API_LEVEL=36
+ARG GRADLE_VERSION=9.2.1
+ARG ANDROID_API_LEVEL=37
 # https://developer.android.com/studio/releases/build-tools
-ARG ANDROID_BUILD_TOOLS_LEVEL=36.1.0
+ARG ANDROID_BUILD_TOOLS_LEVEL=37.0.0
 # https://developer.android.com/ndk/downloads
 ARG ANDROID_NDK_VERSION=29.0.14206865
 # https://developer.android.com/studio/
