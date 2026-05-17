@@ -44,8 +44,8 @@ RUN unzip -q -d /opt/android/cmdline-tools /tmp/commandlinetools-${ANDROID_CMD_L
 
 # install packages and accept all licenses
 # cmdline-tools/cmdline-tools - the second "cmdline-tools" is the folder in the zip file
-RUN yes Y | /opt/android/cmdline-tools/cmdline-tools/bin/sdkmanager --sdk_root=/opt/android --install "build-tools;${ANDROID_BUILD_TOOLS_LEVEL}" "platforms;android-${ANDROID_API_LEVEL}" "platform-tools" "ndk;${ANDROID_NDK_VERSION}" \
-&& yes Y | /opt/android/cmdline-tools/cmdline-tools/bin/sdkmanager --sdk_root=/opt/android --licenses
+RUN yes Y | /opt/android/cmdline-tools/cmdline-tools/bin/sdkmanager --install "build-tools;${ANDROID_BUILD_TOOLS_LEVEL}" "platforms;android-${ANDROID_API_LEVEL}" "platform-tools" "ndk;${ANDROID_NDK_VERSION}" \
+&& yes Y | /opt/android/cmdline-tools/cmdline-tools/bin/sdkmanager --licenses
 
 # Environment variables to be used for build
 ENV GRADLE_HOME=/opt/gradle/gradle-$GRADLE_VERSION
